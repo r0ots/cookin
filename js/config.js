@@ -16,8 +16,8 @@ const config = {
   title: "Cooking Game",
   version: "1.0",
   loader: {
-    baseURL: "",
-    path: "",
+    baseURL: "./",
+    path: "./",
     maxParallelDownloads: 32,
     crossOrigin: "anonymous",
     timeout: 0,
