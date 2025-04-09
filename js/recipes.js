@@ -1,79 +1,184 @@
-// Recipe definitions - simplified to 2 ingredients each
+// Recipe definitions - 30 soup recipes
 export const recipes = [
-  {
-    name: "Salad",
-    ingredients: ["lettuce", "tomato"],
-    points: 10,
-  },
-  {
-    name: "Pizza",
-    ingredients: ["dough", "tomato"],
-    points: 20,
-  },
-  {
-    name: "Sandwich",
-    ingredients: ["bread", "lettuce"],
-    points: 15,
-  },
-  {
-    name: "Cheese Bread",
-    ingredients: ["bread", "cheese"],
-    points: 12,
-  },
-  {
-    name: "Mushroom Toast",
-    ingredients: ["bread", "mushroom"],
-    points: 15,
-  },
-  {
-    name: "Meat Sandwich",
-    ingredients: ["bread", "meat"],
-    points: 18,
-  },
-  {
-    name: "Onion Bread",
-    ingredients: ["bread", "onion"],
-    points: 14,
-  },
   {
     name: "Tomato Soup",
     ingredients: ["tomato", "onion"],
-    points: 16,
-  },
-  {
-    name: "Pizza Dough",
-    ingredients: ["dough", "cheese"],
-    points: 15,
-  },
-  {
-    name: "Meat Sauce",
-    ingredients: ["meat", "tomato"],
-    points: 18,
-  },
-  {
-    name: "Shrimp Salad",
-    ingredients: ["lettuce", "shrimp"],
-    points: 22,
-  },
-  {
-    name: "Seafood Pasta",
-    ingredients: ["dough", "shrimp"],
-    points: 24,
   },
   {
     name: "Mushroom Soup",
     ingredients: ["mushroom", "onion"],
-    points: 17,
   },
   {
-    name: "Meat Stew",
+    name: "Vegetable Soup",
+    ingredients: ["lettuce", "tomato"],
+  },
+  {
+    name: "Cucumber Soup",
+    ingredients: ["cucumber", "onion"],
+  },
+  {
+    name: "Cheese Soup",
+    ingredients: ["cheese", "onion"],
+  },
+  {
+    name: "Seafood Soup",
+    ingredients: ["shrimp", "onion"],
+  },
+  {
+    name: "Meat Soup",
     ingredients: ["meat", "onion"],
-    points: 19,
   },
   {
-    name: "Stuffed Mushrooms",
+    name: "Bread Soup",
+    ingredients: ["bread", "tomato"],
+  },
+  {
+    name: "Creamy Tomato Soup",
+    ingredients: ["tomato", "cheese"],
+  },
+  {
+    name: "Tomato Shrimp Soup",
+    ingredients: ["tomato", "shrimp"],
+  },
+  {
+    name: "Tomato Meat Soup",
+    ingredients: ["tomato", "meat"],
+  },
+  {
+    name: "Lettuce Soup",
+    ingredients: ["lettuce", "onion"],
+  },
+  {
+    name: "Cream of Mushroom",
     ingredients: ["mushroom", "cheese"],
-    points: 18,
+  },
+  {
+    name: "Mushroom Shrimp Soup",
+    ingredients: ["mushroom", "shrimp"],
+  },
+  {
+    name: "Mushroom Meat Soup",
+    ingredients: ["mushroom", "meat"],
+  },
+  {
+    name: "Cucumber Cream Soup",
+    ingredients: ["cucumber", "cheese"],
+  },
+  {
+    name: "Cucumber Seafood Soup",
+    ingredients: ["cucumber", "shrimp"],
+  },
+  {
+    name: "Cucumber Meat Soup",
+    ingredients: ["cucumber", "meat"],
+  },
+  {
+    name: "Bread Bowl Soup",
+    ingredients: ["bread", "cheese"],
+  },
+  {
+    name: "Seafood Bread Soup",
+    ingredients: ["bread", "shrimp"],
+  },
+  {
+    name: "Meat Bread Soup",
+    ingredients: ["bread", "meat"],
+  },
+  {
+    name: "Lettuce Cream Soup",
+    ingredients: ["lettuce", "cheese"],
+  },
+  {
+    name: "Seafood Lettuce Soup",
+    ingredients: ["lettuce", "shrimp"],
+  },
+  {
+    name: "Meat Lettuce Soup",
+    ingredients: ["lettuce", "meat"],
+  },
+  {
+    name: "Dumpling Soup",
+    ingredients: ["dough", "onion"],
+  },
+  {
+    name: "Cheese Dumpling Soup",
+    ingredients: ["dough", "cheese"],
+  },
+  {
+    name: "Seafood Dumpling Soup",
+    ingredients: ["dough", "shrimp"],
+  },
+  {
+    name: "Meat Dumpling Soup",
+    ingredients: ["dough", "meat"],
+  },
+  {
+    name: "Garden Vegetable Soup",
+    ingredients: ["cucumber", "lettuce"],
+  },
+  {
+    name: "Chef's Special Soup",
+    ingredients: ["mushroom", "tomato"],
+  },
+  {
+    name: "Potato Soup",
+    ingredients: ["potato", "onion"],
+  },
+  {
+    name: "Carrot Soup",
+    ingredients: ["carrot", "onion"],
+  },
+  {
+    name: "Eggplant Soup",
+    ingredients: ["eggplant", "onion"],
+  },
+  {
+    name: "Egg Drop Soup",
+    ingredients: ["egg", "onion"],
+  },
+  {
+    name: "Zucchini Soup",
+    ingredients: ["zucchini", "onion"],
+  },
+  {
+    name: "Potato Leek Soup",
+    ingredients: ["potato", "lettuce"],
+  },
+  {
+    name: "Creamy Potato Soup",
+    ingredients: ["potato", "cheese"],
+  },
+  {
+    name: "Carrot Ginger Soup",
+    ingredients: ["carrot", "tomato"],
+  },
+  {
+    name: "Ratatouille Soup",
+    ingredients: ["eggplant", "zucchini"],
+  },
+  {
+    name: "Egg and Potato Soup",
+    ingredients: ["egg", "potato"],
+  },
+  {
+    name: "Minestrone",
+    ingredients: ["carrot", "tomato"],
+  },
+  {
+    name: "Hearty Vegetable Soup",
+    ingredients: ["carrot", "potato"],
+  },
+  {
+    name: "Garden Egg Soup",
+    ingredients: ["egg", "zucchini"],
+  },
+  {
+    name: "Eggplant Parmesan Soup",
+    ingredients: ["eggplant", "cheese"],
+  },
+  {
+    name: "Seafood Egg Soup",
+    ingredients: ["egg", "shrimp"],
   },
 ];
 
